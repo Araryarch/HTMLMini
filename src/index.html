@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav
+      class="w-full bg-[#404146] text-white px-4 py-6 flex flex-wrap items-center gap-4 fixed top-0"
+    >
+      <div class="logo pr-5">
+        <h1 class="text-3xl text-bold tracking-widest">NINJA KEN</h1>
+      </div>
+      <div class="nav-link flex gap-8">
+        <div class="link hover:text-slate-300">
+          <a href="#tentang">Tentang Saya</a>
+        </div>
+        <div class="link hover:text-slate-300">
+          <a href="#proyek">Proyek Contoh</a>
+        </div>
+        <div class="link hover:text-slate-300">
+          <a href="#hubungi">Hubungi Saya</a>
+        </div>
+      </div>
+    </nav>
+    <section
+      class="w-full h-screen flex flex-col items-center justify-center gap-10"
+    >
+      <div class="main-text text-9xl font-bold tracking-wide">
+        <h1>NINJA KEN<span class="text-yellow-300">.</span></h1>
+      </div>
+      <div class="sub-text text-6xl font-thin tracking-wide">
+        <h1>MY PORTFOLIO</h1>
+      </div>
+      <img src="../img/Ninja Ken.png" alt="" width="250px" />
+    </section>
+    <section
+      id="tentang"
+      class="w-full bg-[#F4F4F4] p-10 box-border flex text-center gap-10"
+    >
+      <div class="container mx-auto py-10 px-5">
+        <h1 class="font-bold text-3xl py-10">Tentang Saya</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+          molestiae odit fuga nisi sit earum dolorem tempore distinctio itaque
+          optio atque, recusandae ratione quibusdam sed architecto repellat
+          excepturi nihil, reprehenderit, adipisci dignissimos veniam!
+          Asperiores odio iste reprehenderit dicta nostrum nesciunt ut vitae
+          placeat! Tempora, dolore!
+        </p>
+      </div>
+    </section>
+    <section id="proyek" class="flex flex-col justify-center">
+      <div class="container mx-auto py-10">
+        <h1 class="font-bold text-3xl py-10 text-center">Proyek Contoh</h1>
+        <div class="image-wrapper flex justify-around gap-8">
+          <div class="image1">
+            <img
+              src="../img/1.png"
+              alt="image"
+              width="300px"
+              class="shadow-sm shadow-[#F4F4F4]"
+            />
+            <h1 class="text-center py-10">Image 1</h1>
+          </div>
+          <div class="image2">
+            <img
+              src="../img/2.png"
+              alt="image"
+              width="300px"
+              class="shadow-sm shadow-[#F4f4f4]"
+            />
+            <h1 class="text-center py-10">Image 2</h1>
+          </div>
+          <div class="image3">
+            <img
+              src="../img/3.png"
+              alt="image"
+              width="300px"
+              class="shadow-sm shadow-[#F4f4f4]"
+            />
+            <h1 class="text-center py-10">Image 3</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      id="hubungi"
+      class="w-full flex flex-col gap-8 justify-center items-center bg-[#f4f4f4] py-20"
+    >
+      <h1 class="text-2xl font-bold">Hubungi Saya</h1>
+      <input
+        type="email"
+        name=""
+        id=""
+        class="rounded-sm w-1/2 h-10 box-border px-5"
+        placeholder="Email (Diperlukan)"
+      />
+      <textarea
+        name=""
+        id=""
+        class="rounded-sm w-1/2 min-h-32 box-border px-5 py-3"
+        placeholder="Message (Diperlukan)"
+      ></textarea>
+      <button class="bg-yellow-400 py-2 w-[23rem] rounded-md">Kirim</button>
+    </section>
+    <footer
+      class="bg-[#404146] w-full flex justify-between h-48 text-white px-6 py-10"
+    >
+      <div class="logo font-bold text-3xl">
+        <h1>NINJA KEN</h1>
+      </div>
+      <div class="footer-link flex flex-col items-center gap-5">
+        <a href="#tentang" class="hover:text-slate-300">Tentang Saya</a>
+        <a href="#proyek" class="hover:text-slate-300">Proyek Contoh</a>
+        <a href="#hubungi" class="hover:text-slate-300">Hubungi Saya</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001618",
+    "tailwindcss": "^3.4.3"
+  }
+}
